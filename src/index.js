@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import App from './components/app';
 import './index.css';
 
@@ -9,4 +9,4 @@ const app = (
   </div>
 );
 
-ReactDOM.render(app, document.querySelector('#root'));
+render(app, document.querySelector('#root'));
