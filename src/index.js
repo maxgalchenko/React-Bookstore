@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import App from './components/app';
-import './index.css';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ErrorBoundry from './components/error-boundry';
@@ -11,7 +10,7 @@ import store from './store';
 
 const bookstoreService = new BookstoreService();
 
-const app = (
+render(
   <Provider store={store}>
     <ErrorBoundry>
       <BookstoreServiceProvider value={bookstoreService}>
@@ -22,7 +21,6 @@ const app = (
         </Router>
       </BookstoreServiceProvider>
     </ErrorBoundry>
-  </Provider>
+  </Provider>,
+  document.querySelector('#root')
 );
-
-render(app, document.querySelector('#root'));
