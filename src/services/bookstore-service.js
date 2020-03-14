@@ -22,11 +22,7 @@ export default class BookstoreService extends Component {
   async getBooks() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        if (Math.random() > 0.75) {
-          reject(new Error('Something bad happend'));
-        } else {
-          resolve(this.data);
-        }
+        resolve(this.data);
       }, 700);
     });
   }
