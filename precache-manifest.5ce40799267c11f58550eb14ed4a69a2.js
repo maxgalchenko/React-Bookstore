@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c8c104c4d458a244e7f5f7266e92e03",
+    "revision": "fa49090ab7c0431fd73058c37ddeaef8",
     "url": "/React-Bookstore/index.html"
   },
   {
-    "revision": "b9bad534f8e4990d6866",
+    "revision": "8b1eb110b0bedfb4875b",
     "url": "/React-Bookstore/static/css/main.ceb7dfb8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Bookstore/static/js/2.6f762760.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9bad534f8e4990d6866",
-    "url": "/React-Bookstore/static/js/main.77cf783d.chunk.js"
+    "revision": "8b1eb110b0bedfb4875b",
+    "url": "/React-Bookstore/static/js/main.d4a28522.chunk.js"
   },
   {
     "revision": "10f8595c0bd21fa10980",
