@@ -9,10 +9,10 @@ const ShopHeader = ({ cartItems }) => {
 
   return (
     <header className='shop-header row'>
-      <Link to='/'>
+      <Link to='/React-Bookstore'>
         <div className='logo text-dark'>ReStore</div>
       </Link>
-      <Link to='/cart'>
+      <Link to='/React-Bookstore/cart'>
         <div className='shopping-cart'>
           <i className='cart-icon fa fa-shopping-cart' />
           {countSum} items (${totalSum})
