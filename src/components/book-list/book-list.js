@@ -54,7 +54,7 @@ const mapDispatchToProps = (dispatch, { bookstoreService }) => {
   return bindActionCreators(
     {
       fetchBooks: fetchBooks(bookstoreService),
-      onAddedToCart: bookAddedToCart
+      onAddedToCart: bookAddedToCart 
     },
     dispatch
   );

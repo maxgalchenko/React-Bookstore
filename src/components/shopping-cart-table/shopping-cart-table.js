@@ -52,6 +52,8 @@ const ShoppingCartTable = ({
     );
   };
 
+  const totalSum = items.reduce((a, b) => a + b.total, 0);
+
   return (
     <div className='shopping-cart-table'>
       <h2>Your Order</h2>
@@ -69,7 +71,7 @@ const ShoppingCartTable = ({
         <tbody>{items.map(renderRow)}</tbody>
       </table>
 
-      <div className='total'>Total: ${total}</div>
+      <div className='total'>Total: ${totalSum}</div>
     </div>
   );
 };
