@@ -13,32 +13,32 @@
 
 ## Overview
 
-[A small React + Redux bookstore demo. Browse a list of books, add/remove items to a cart, and see totals update in real time. Built as a learning project to practice Redux patterns, async flows, and component composition.]
+A small React + Redux bookstore demo. Browse a list of books, add/remove items to a cart, and see totals update in real time. Built as a learning project to practice Redux patterns, async flows, and component composition.
 
 ## Key Features
 
-- [Book list with add-to-cart actions]
-- [Shopping cart with increment/decrement/remove and total calculation]
-- [Error boundary, loading spinner, and a simple service layer]
+- Book list with add-to-cart actions
+- Shopping cart with increment/decrement/remove and total calculation
+- Error boundary, loading spinner, and a simple service layer
 
 ## Tech Stack
 
-[React 16, Create React App 3, Redux, Redux Thunk, React Router 5, JavaScript (ES6)]
+React 16, Create React App 3, Redux, Redux Thunk, React Router 5, JavaScript (ES6)
 
 ## Architecture
 
-[CRA structure with `src/` entrypoint; routing via React Router v5; global state managed in Redux with Thunk for async; service access through a context + HOC (`bookstore-service-context`, `with-bookstore-service`).]
+CRA structure with `src/` entrypoint; routing via React Router v5; global state managed in Redux with Thunk for async; service access through a context + HOC (`bookstore-service-context`, `with-bookstore-service`).
 
 ## Performance & Accessibility
 
-[Lightweight bundle via CRA defaults; basic route-based splitting possible; semantic HTML and keyboard-accessible controls in core flows.]
+Lightweight bundle via CRA defaults; basic route-based splitting possible; semantic HTML and keyboard-accessible controls in core flows.
 
 ## Quality
 
-- Linting: [ESLint (react-app)] • Formatting: [N/A]
-- Type safety: [JavaScript (no TypeScript)]
-- Tests: [React Testing Library deps present; no committed tests]
-- CI: [None]
+- Linting: ESLint (react-app) • Formatting: N/A
+- Type safety: JavaScript (no TypeScript)
+- Tests: React Testing Library deps present; no committed tests
+- CI: None
 
 ## Prerequisites
 
